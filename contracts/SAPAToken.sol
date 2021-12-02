@@ -22,7 +22,7 @@ contract SAPAToken is Ownable{
   string public symbol;
   uint8 public decimals;
 
-  constructor() public {
+  constructor() {
     name = "SAPA INU TOKEN";
     symbol = "SAPA";
     decimals = 18;
